@@ -25,7 +25,7 @@ app.use(offerRoutes);
 
 app.get("/", (req, res) => {
   try {
-    return res.status(200).json({ message: "Wecome on our server Vinted" });
+    return res.status(200).json({ message: "Wecome on our server Vinted !!!" });
   } catch (error) {
     return res.status(400).json({ message: error.message });
   }
